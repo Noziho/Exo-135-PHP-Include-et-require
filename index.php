@@ -1,5 +1,6 @@
 <?php
-
+require "vars.php";
+require "texte.php";
 // Premiere ligne
 
 echo "Un fichier php va être inclu à la suite de ce texte ...<br><br>";
@@ -13,7 +14,7 @@ echo "Un fichier php va être inclu à la suite de ce texte ...<br><br>";
 
 echo "J'aime également les " . $maVar;
 
-
+?>
 
 
 
